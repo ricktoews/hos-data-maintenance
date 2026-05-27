@@ -68,7 +68,7 @@ for filename in sorted(
         INSERT INTO programs
           (id, program_number, title, short_description, description, weather_report,
            program_date, producer, popularity, gallery_url, raw_json)
-        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+        VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
     """, (
         program_id,
         program_number,
